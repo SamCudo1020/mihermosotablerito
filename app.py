@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-st.title("Tablero para dibujo")
+st.title("Dibujitos bonitos")
 
 with st.sidebar:
     st.subheader("Propiedades del Tablero")
@@ -28,7 +28,7 @@ stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
 
 # Background color
 
-bg_color st.color_picker("Color de fondo", "#eeeeee")
+bg_color st.color_picker("Color de fondo", "#800080")
 
 #Create a canvas component with dynamic key
 canvas_result = st_canvas(
