@@ -20,7 +20,7 @@ drawing_mode = st.selectbox(
 )
 #Stroke width slider
 
-stroke_width = st.slider('Selecciona el ancho de línea, 1, 30, 15)
+stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
 
 #Stroke color picker
 
