@@ -39,6 +39,6 @@ canvas_result = st_canvas(
      height-canvas_height,
      width-canvas_width,
      drawing_mode-drawing_mode,
-     key-f"canvas (canvas_width}_{canvas_height)", # Dynamic key based on dimensions
+     key-f"canvas_{canvas_width}_{canvas_height}", # Dynamic key based on dimensions
 
 )
