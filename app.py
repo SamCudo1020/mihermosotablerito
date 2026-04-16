@@ -28,7 +28,7 @@ stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
 
 # Background color
 
-bg_color st.color_picker("Color de fondo", "#FFFFFF")
+bg_color = st.color_picker("Color de fondo", "#572364")
 
 #Create a canvas component with dynamic key
 canvas_result = st_canvas(
